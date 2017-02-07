@@ -1,7 +1,5 @@
 # object-fill
 
---------------------------------------------------------------------------------
-
 Fills an existing object with new properties, but only for the keys that already exist.
 
 --------------------------------------------------------------------------------
