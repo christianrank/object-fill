@@ -16,20 +16,19 @@ returns: the new object
 ```javascript
 const objectFill = require('object-fill');
 
-var destination = {
+const destination = {
     foo: 'something',
     bar: 'another thing',
 };
 
-var source = {
+const source = {
     bar: 'a new string',
     baz: 'an irrelevant string',
 }
 
-var newDestination = objectFill(destination, source);
+const newDestination = objectFill(destination, source);
 
 /* newDestination:
- *
  * {
  *     foo: 'something',
  *     bar: 'a new string'
