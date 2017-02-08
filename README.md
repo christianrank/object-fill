@@ -2,9 +2,15 @@
 
 Fills an existing object with new properties, but only for the keys that already exist.
 
+This also works recursive.
+
 --------------------------------------------------------------------------------
 
-## objectFill(destination, source)
+# Install
+
+`npm install --save object-fill`
+
+## const newDestination = objectFill(destination, source)
 
 destination: the existing object<br>
 source: the data that is inserted into the destination
