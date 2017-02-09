@@ -8,7 +8,13 @@ This also works recursive.
 
 # Install
 
+**NPM**<br>
 `npm install --save object-fill`
+
+**Yarn**<br>
+`yarn add object-fill`
+
+# Documentation
 
 ## const newDestination = objectFill(destination, source)
 
