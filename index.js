@@ -1,4 +1,4 @@
-module.exports = (destination, source) => {
+function objectFill(destination, source) {
     const newDestination = Object.assign({}, destination);
 
     if (!source) return destination;
@@ -22,3 +22,5 @@ module.exports = (destination, source) => {
 
     return newDestination;
 }
+
+module.exports = objectFill;
