@@ -1,6 +1,6 @@
 {
   "name": "object-fill",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fills an existing object with new properties, but only for the keys that already exist.",
   "main": "index.js",
   "scripts": {
