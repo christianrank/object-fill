@@ -1,9 +1,9 @@
 function objectFill(destination, source) {
-    const newDestination = Object.assign({}, destination);
+    var newDestination = Object.assign({}, destination);
 
     if (!source) return destination;
 
-    for (const key in newDestination) {
+    for (var key in newDestination) {
         if ({}.hasOwnProperty.call(newDestination, key) &&
             {}.hasOwnProperty.call(source, key)
         ) {
